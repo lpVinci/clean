@@ -42,14 +42,7 @@
       }
     }
 
-    .devtwo {
-      display: flex;
-      align-items: end;
-
-      p {
-        font-weight: bolder;
-      }
-    }
+    
   }
 
   @media screen and (max-width: 767px) {
@@ -87,14 +80,7 @@
         }
       }
 
-      .devtwo {
-        display: flex;
-        align-items: end;
-
-        p {
-          font-weight: bolder;
-        }
-      }
+      
     }
   }
 }
