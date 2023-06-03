@@ -1,0 +1,26 @@
+@keyframes jumpBtn {
+  0% {
+    position: relative;
+    top: -10px;
+  }
+  50% {
+    position: relative;
+    top: 10px;
+  }
+  100% {
+    position: relative;
+    top: -10px;
+  }
+}
+
+.containerBtn {
+  padding-top: 5em;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  img {
+    animation: jumpBtn 2s infinite;
+  }
+}
